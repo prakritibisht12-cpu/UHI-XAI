@@ -49,17 +49,17 @@ bash run_all.sh                                         # or run the scripts one
 
 The full run takes about 5 minutes on a laptop; the bootstrap step (07) takes most of that time. Tables and pickles are written to `results/` and figures to `results/figures/` as PDF and 600-dpi PNG.
 
-| Script | Output | Paper item |
+| Script | Output | 
 |---|---|---|
-| `01_descriptive_and_correlation.py` | Sample statistics, Pearson correlations | Table S5, Fig. 8 |
-| `02_mlr_within_year.py` | Two-index MLR models | Table S6, Fig. S5 |
-| `03_predictor_screening.py` | BI identity, PV audit, adversarial AUC | Fig. S2, Section 5.6.2 |
-| `04_benchmark_2023.py` | Weka metrics, Python SVR-PUK, KernelSHAP | Table 7, Figs. 10, S6, S7 |
-| `05_loyo_transferability.py` | LOYO metrics and predictions, within-year CV, conformal intervals | Table 8, Figs. 11, S8, S9 |
-| `06_explainability.py` | TreeSHAP, interactions, per-year SHAP, permutation importance | Figs. 12, 13, S10–S12 |
-| `07_bootstrap_shap_shares.py` | Bootstrap SHAP shares | Table S7, Fig. S13 |
-| `08_sample_contrasts.py` | LST distribution, tercile contrasts | Figs. 7, 9 |
-| `09_figures.py` | All figures above | – |
+| `01_descriptive_and_correlation.py` | Sample statistics, Pearson correlations | 
+| `02_mlr_within_year.py` | Two-index MLR models | 
+| `03_predictor_screening.py` | BI identity, PV audit, adversarial AUC | 
+| `04_benchmark_2023.py` | Weka metrics, Python SVR-PUK, KernelSHAP |
+| `05_loyo_transferability.py` | LOYO metrics and predictions, within-year CV, conformal intervals | 
+| `06_explainability.py` | TreeSHAP, interactions, per-year SHAP, permutation importance | 
+| `07_bootstrap_shap_shares.py` | Bootstrap SHAP shares | 
+| `08_sample_contrasts.py` | LST distribution, tercile contrasts |
+| `09_figures.py` | All figures above | 
 
 ## Repository layout
 
