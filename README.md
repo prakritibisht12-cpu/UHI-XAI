@@ -35,14 +35,13 @@ SHAP values are reported as *model-attributed* contributions, not causal effects
 ## How to run
 
 ```bash
-git clone https://github.com/prakritibisht12-cpu/dehradun-uhi-xai.git
-cd dehradun-uhi-xai
+git clone https://github.com/prakritibisht12-cpu/UHI-XAI.git
+cd UHI-XAI
 python -m venv .venv && source .venv/bin/activate     # Windows: .venv\Scripts\activate
 pip install -r requirements.txt
 # put Data.xlsx (and optionally weka_predictions_2023.csv) in data/
 bash run_all.sh                                         # or run the scripts one by one
 ```
-
 The full run takes about 5 minutes on a laptop; the bootstrap step (07) takes most of that time. Tables and pickles are written to `results/` and figures to `results/figures/` as PDF and 600-dpi PNG.
 
 | Script | Output |
