@@ -2,11 +2,7 @@
 
 **Explainable, temporally validated machine learning of land surface temperature (LST) in Dehradun, India, 1993–2023**
 
-This repository holds the analysis code for the manuscript:
-
-> Bisht, P., Deswal, S., Pal, M. *Modelling thermal field variation and its relationship with land use/land cover and land use indices using statistical and machine learning approaches: a case study of Dehradun, India.* Manuscript in preparation.
-
-It covers every statistical, machine-learning and explainability analysis in the paper. The Landsat processing, LULC classification and map production were done in ArcGIS and are not included. The data are not distributed with the code (see [`data/README.md`](data/README.md)).
+It covers every statistical, machine-learning and explainability. The Landsat processing, LULC classification and map production were done in ArcGIS and are not included. The data are not distributed with the code (see [`data/README.md`](data/README.md)).
 
 ## What the analysis does
 
