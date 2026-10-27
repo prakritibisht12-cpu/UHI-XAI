@@ -1,4 +1,3 @@
-   <p align="center"><img src="figures/logo_256.png" width="160" alt="UHI-XAI logo"></p>
 # UHI-XAI
 
 **Explainable, temporally validated machine learning of land surface temperature (LST) in Dehradun, India, 1993–2023**
