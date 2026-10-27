@@ -1,4 +1,4 @@
-# dehradun-uhi-xai
+# UHI-XAI
 
 **Explainable, temporally validated machine learning of land surface temperature (LST) in Dehradun, India, 1993–2023**
 
