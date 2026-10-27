@@ -1,5 +1,6 @@
-# UHI-XAI
+<p align="center"><img src="figures/logo.png" width="160" alt="UHI-XAI logo"></p>
 
+# UHI-XAI 
 **Explainable, temporally validated machine learning of land surface temperature (LST) in Dehradun, India, 1993-2023**
 
 It covers statistical, machine-learning and explainability analysis of Urban Heat Island (UHI) effect in Dehradun, Uttarakhand, India. The Landsat processing, LULC classification and map production were done in ArcGIS and are not included. The data are not distributed with the code (see [`data/README.md`](data/README.md)).
