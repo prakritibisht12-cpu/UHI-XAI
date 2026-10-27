@@ -6,7 +6,8 @@ It covers every statistical, machine-learning and explainability. The Landsat pr
 
 ## What the analysis does
 
-LST and four spectral indices (NDVI, NDBI, NDWI, UI) were sampled at 164 random points in each of four Landsat years (1993, 2003, 2013, 2023). The code then works through six steps:
+LST and four spectral indices (NDVI, NDBI, NDWI, UI) were sampled at 164 random points in each of four Landsat years (1993, 2003, 2013, 2023). 
+The code then works through six steps:
 
 1. **Screens the predictors.**
    - It shows that BI = NDBI − NDVI exactly.
@@ -32,6 +33,9 @@ SHAP values are reported as *model-attributed* contributions, not causal effects
 | Grouped permutation, increase in RMSE | Built-up (NDBI + UI) 0.51–0.63 °C; vegetation (NDVI + NDWI) 0.19–0.29 °C |
 | Conformal 90% intervals | Half-width about ±2.1 °C (MLR); coverage 0.76–1.00 by year |
 
+![2023 benchmark](figures/Fig10_ML_benchmark_2023_test.png)
+*Original six-index benchmark (trained 1993–2013, tested 2023, n = 164). SVR-PUK performs best (R = 0.713), but this result depends on the PV predictor, which is not comparable between years.*
+
 ## How to run
 
 ```bash
@@ -56,6 +60,8 @@ The full run takes about 5 minutes on a laptop; the bootstrap step (07) takes mo
 | `08_sample_contrasts.py` | LST distribution, tercile contrasts |
 | `09_figures.py` | All figures |
 
+![ALE vs PDP](figures/FigS11_ALE_vs_PDP.png)
+*Accumulated local effects agree with partial dependence, so the effect shapes are robust to correlated predictors.*
 ## Repository layout
 
 ```
