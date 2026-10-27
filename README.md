@@ -49,17 +49,17 @@ bash run_all.sh                                         # or run the scripts one
 
 The full run takes about 5 minutes on a laptop; the bootstrap step (07) takes most of that time. Tables and pickles are written to `results/` and figures to `results/figures/` as PDF and 600-dpi PNG.
 
-| Script | Output | 
-|---|---|---|
-| `01_descriptive_and_correlation.py` | Sample statistics, Pearson correlations | 
-| `02_mlr_within_year.py` | Two-index MLR models | 
-| `03_predictor_screening.py` | BI identity, PV audit, adversarial AUC | 
+| Script | Output |
+|---|---|
+| `01_descriptive_and_correlation.py` | Sample statistics, Pearson correlations |
+| `02_mlr_within_year.py` | Two-index MLR models |
+| `03_predictor_screening.py` | BI identity, PV audit, adversarial AUC |
 | `04_benchmark_2023.py` | Weka metrics, Python SVR-PUK, KernelSHAP |
-| `05_loyo_transferability.py` | LOYO metrics and predictions, within-year CV, conformal intervals | 
-| `06_explainability.py` | TreeSHAP, interactions, per-year SHAP, permutation importance | 
-| `07_bootstrap_shap_shares.py` | Bootstrap SHAP shares | 
+| `05_loyo_transferability.py` | LOYO metrics and predictions, within-year CV, conformal intervals |
+| `06_explainability.py` | TreeSHAP, interactions, per-year SHAP, permutation importance |
+| `07_bootstrap_shap_shares.py` | Bootstrap SHAP shares |
 | `08_sample_contrasts.py` | LST distribution, tercile contrasts |
-| `09_figures.py` | All figures above | 
+| `09_figures.py` | All figures |
 
 ## Repository layout
 
