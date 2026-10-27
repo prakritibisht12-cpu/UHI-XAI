@@ -1,0 +1,13 @@
+cff-version: 1.2.0
+message: "If you use this code, please cite it as below."
+title: "dehradun-uhi-xai: explainable and temporally validated machine learning of land surface temperature in Dehradun, India"
+version: 1.0.0
+date-released: 2026-10-27
+license: MIT
+authors:
+  - family-names: Bisht
+    given-names: Prakriti
+  - family-names: Deswal
+    given-names: Surinder
+  - family-names: Pal
+    given-names: Mahesh
